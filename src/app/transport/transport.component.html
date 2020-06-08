@@ -1,0 +1,53 @@
+<div class="container">   
+   <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-5 form-group"><br>
+            <input type="text" class="form-control input-sm" placeholder="Search Car by Model, Price, Version, Category, Fuel or Mileage.." [(ngModel)]="keyword">
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</div>
+
+<div class="container body">
+    <div class="row col-md-12" *ngFor="let car of mycar | paginate: { itemsPerPage: 10, currentPage: p} | filter:keyword; let i=index">
+        <div class="col-md-3"><br><br>
+            <img src="assets/{{car.image}}" class="car img-thumbnail"><br>
+            <p class="text-center"><b>Price: </b>Rs {{car.price}}</p>
+            <p class="text-center"><b>Model: </b>{{car.model}}</p>
+        </div><br>
+        <div class="col-md-7">
+            <table class="table table-bordered table-hover">
+                <tbody>
+                    <tr>
+                        <th>Car Version</th>
+                        <td>{{car.version}}</td>
+                    </tr>
+                    <tr>
+                        <th>Car Category</th>
+                        <td>{{car.category.vechicleType}}</td>
+                    </tr>
+                    <tr>
+                        <th>Car Fuel</th>
+                        <td>{{car.fuelType}}</td>
+                    </tr>
+                    <tr>
+                        <th>Car Mileage</th>
+                        <td>{{car.mileage}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div><br>
+        <div class="col-md-2">
+            <button class="btn btn-primary btn-block" (click)="buy()">Buy Now..<br>Rs {{car.price}}</button>
+            <h5 class="text-center">No Cost EMI</h5>
+            <h6 class="text-center">Upto Rs 61,000 Off on Exchange</h6>
+        </div><br><br><br>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <pagination-controls (pageChange)="p = $event"></pagination-controls>
+        </div>
+    </div>
+</div>
+

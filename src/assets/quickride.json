@@ -1,0 +1,554 @@
+[
+    {
+        "model": "Toyota Camry",
+        "price": 289000,
+        "version": "XL",
+        "fuelType": "Petrol",
+        "mileage": 821.34,
+        "image": "Toyota_Camry.jpg",
+        "category": {
+            "vechicleType": "Sedan"
+        },
+        "status": {
+            "isServiceDone": true
+        },
+        "bootSize": 12300,
+        "serviceHistory": [
+            {
+                "serviceCost": 2425,
+                "serviceDate": "2017-12-27"
+            },
+            {
+                "serviceCost": 1976,
+                "serviceDate": "2017-06-07"
+            }
+        ]
+    },
+    {
+        "model": "Toyota RAV4",
+        "price": 289000,
+        "version": "Hybrid",
+        "fuelType": "Deisel/Electric",
+        "mileage": 1231.92,
+        "image": "Toyota_RAV4.jpg",
+        "category": {
+            "vechicleType": "SUV"
+        },
+        "status": {
+            "isServiceDone": false
+        },
+        "numOfDifLocks": 4,
+        "serviceHistory": [
+            {
+                "serviceCost": 2425,
+                "serviceDate": "2016-07-11"
+            },
+            {
+                "serviceCost": 1976,
+                "serviceDate": "2018-01-21"
+            }
+        ]
+    },
+    {
+        "model": "Nissan Maxima",
+        "price": 1698000,
+        "version": "Limited",
+        "fuelType": "Petrol",
+        "mileage": 644.71,
+        "image": "Nissan_Maxima.jpg",
+        "category": {
+            "vechicleType": "Sedan"
+        },
+        "status": {
+            "isServiceDone": true
+        },
+        "bootSize": 14500,
+        "serviceHistory": [
+            {
+                "serviceCost": 2500,
+                "serviceDate": "2017-11-07"
+            },
+            {
+                "serviceCost": 500,
+                "serviceDate": "2017-06-05"
+            },
+            {
+                "serviceCost": 1700,
+                "serviceDate": "2018-02-25"
+            }
+        ]
+    },
+    {
+        "model": "Kia Optima",
+        "price": 121900,
+        "version": "EXL",
+        "fuelType": "Petrol",
+        "mileage": 1478,
+        "image": "Kia_Optima.jpg",
+        "category": {
+            "vechicleType": "Sedan"
+        },
+        "status": {
+            "isServiceDone": false
+        },
+        "bootSize": 12115,
+        "serviceHistory": [
+            {
+                "serviceCost": 1275,
+                "serviceDate": "2017-12-07"
+            },
+            {
+                "serviceCost": 1792,
+                "serviceDate": "2016-08-11"
+            },
+            {
+                "serviceCost": 923,
+                "serviceDate": "2018-04-23"
+            }
+        ]
+    },
+    {
+        "model": "LandRover Discovery",
+        "price": 1993200,
+        "version": "Sport",
+        "fuelType": "Diesel",
+        "mileage": 1221.41,
+        "image": "LandRover_Discovery.jpg",
+        "category": {
+            "vechicleType": "SUV"
+        },
+        "status": {
+            "isServiceDone": false
+        },
+        "numOfDifLocks": 5,
+        "serviceHistory": [
+            {
+                "serviceCost": 2892,
+                "serviceDate": "2017-05-17"
+            },
+            {
+                "serviceCost": 2290,
+                "serviceDate": "2017-11-29"
+            },
+            {
+                "serviceCost": 4511,
+                "serviceDate": "2017-02-21"
+            },
+            {
+                "serviceCost": 3120,
+                "serviceDate": "2018-03-14"
+            }
+        ]
+    },
+    {
+        "model": "Mahindra XUV500",
+        "price": 1773900,
+        "version": "ZL",
+        "fuelType": "Diesel",
+        "mileage": 1662.23,
+        "image": "Mahindra_XUV500.jpg",
+        "category": {
+            "vechicleType": "SUV"
+        },
+        "status": {
+            "isServiceDone": true
+        },
+        "numOfDifLocks": 2,
+        "serviceHistory": [
+            {
+                "serviceCost": 2300,
+                "serviceDate": "2018-01-19"
+            }
+        ]
+    },
+    {
+        "model": "Maruthi Dzire",
+        "price": 782900,
+        "version": "VXL",
+        "fuelType": "Diesel",
+        "mileage": 1320,
+        "image": "Maruthi_Dzire.jpg",
+        "category": {
+            "vechicleType": "Sedan"
+        },
+        "status": {
+            "isServiceDone": true
+        },
+        "bootSize": 3450,
+        "serviceHistory": [
+            {
+                "serviceCost": 2120,
+                "serviceDate": "2017-01-19"
+            },
+            {
+                "serviceCost": 3100,
+                "serviceDate": "2017-06-12"
+            },
+            {
+                "serviceCost": 1592,
+                "serviceDate": "2017-12-21"
+            },
+            {
+                "serviceCost": 1190,
+                "serviceDate": "2018-03-19"
+            }
+        ]
+    },
+    {
+        "model": "Hyundai Creta",
+        "price": 198200,
+        "version": "Limited",
+        "fuelType": "Diesel/Auto",
+        "mileage": 2122,
+        "image": "Hyundai_Creta.jpeg",
+        "category": {
+            "vechicleType": "SUV"
+        },
+        "status": {
+            "isServiceDone": false
+        },
+        "numOfDifLocks": 1,
+        "serviceHistory": [
+            {
+                "serviceCost": 3119,
+                "serviceDate": "2018-01-27"
+            }
+        ]
+    },
+    {
+        "model": "Toyota Fortuner",
+        "price": 189900,
+        "version": "Sport",
+        "fuelType": "Diesel",
+        "mileage": 1992.45,
+        "image": "Toyota_Fortuner.jpg",
+        "category": {
+            "vechicleType": "SUV"
+        },
+        "status": {
+            "isServiceDone": true
+        },
+        "numOfDifLocks": 4,
+        "serviceHistory": [
+            {
+                "serviceCost": 4500,
+                "serviceDate": "2017-09-27"
+            },
+            {
+                "serviceCost": 3190,
+                "serviceDate": "2017-03-19"
+            }
+        ]
+    },
+    {
+        "model": "Skoda Rapid",
+        "price": 4552500,
+        "version": "XE",
+        "fuelType": "Diesel",
+        "mileage": 452.5,
+        "image": "Skoda_Rapid.jpg",
+        "category": {
+            "vechicleType": "Sedan"
+        },
+        "status": {
+            "isServiceDone": true
+        },
+        "bootSize": 4155,
+        "serviceHistory": [
+            {
+                "serviceCost": 1530,
+                "serviceDate": "2017-10-17"
+            },
+            {
+                "serviceCost": 1110,
+                "serviceDate": "2017-03-09"
+            },
+            {
+                "serviceCost": 2710,
+                "serviceDate": "2018-03-01"
+            }
+        ]
+    },
+    {
+        "model": "Skoda Kodiaq",
+        "price": 2321990,
+        "version": "Long range",
+        "fuelType": "Petrol",
+        "mileage": 232.13,
+        "image": "Skoda_Kodiaq.jpg",
+        "category": {
+            "vechicleType": "SUV"
+        },
+        "status": {
+            "isServiceDone": true
+        },
+        "numOfDifLocks": 4,
+        "serviceHistory": [
+            {
+                "serviceCost": 2015,
+                "serviceDate": "2017-02-17"
+            },
+            {
+                "serviceCost": 3120,
+                "serviceDate": "2017-09-09"
+            },
+            {
+                "serviceCost": 2700,
+                "serviceDate": "2018-02-21"
+            }
+        ]
+    },
+    {
+        "model": "Mercedes Benz GLA",
+        "price": 5243000,
+        "version": "Platinum",
+        "fuelType": "Diesel",
+        "mileage": 1902.33,
+        "image": "Mercedes_Benz_GLA.jpg",
+        "category": {
+            "vechicleType": "Sedan"
+        },
+        "status": {
+            "isServiceDone": false
+        },
+        "bootSize": 1430,
+        "serviceHistory": [
+            {
+                "serviceCost": 4203,
+                "serviceDate": "2017-10-23"
+            },
+            {
+                "serviceCost": 3180,
+                "serviceDate": "2017-03-19"
+            },
+            {
+                "serviceCost": 4249,
+                "serviceDate": "2017-12-01"
+            },
+            {
+                "serviceCost": 4190,
+                "serviceDate": "2018-01-27"
+            }
+        ]
+    },
+    {
+        "model": "Ford Ecosport",
+        "price": 1290300,
+        "version": "Deluxe",
+        "fuelType": "Deisel",
+        "mileage": 3110,
+        "image": "Ford_Ecosport.jpg",
+        "category": {
+            "vechicleType": "SUV"
+        },
+        "status": {
+            "isServiceDone": true
+        },
+        "numOfDifLocks": 2,
+        "serviceHistory": [
+            {
+                "serviceCost": 2500,
+                "serviceDate": "2015-10-08"
+            },
+            {
+                "serviceCost": 1450,
+                "serviceDate": "2017-08-11"
+            }
+        ]
+    },
+    {
+        "model": "Renault Duster",
+        "price": 8138900,
+        "version": "XL",
+        "fuelType": "Diesel",
+        "mileage": 2587,
+        "image": "Renault_Duster.jpg",
+        "category": {
+            "vechicleType": "SUV"
+        },
+        "status": {
+            "isServiceDone": true
+        },
+        "numOfDifLocks": 2,
+        "serviceHistory": [
+            {
+                "serviceCost": 1233,
+                "serviceDate": "2015-02-02"
+            },
+            {
+                "serviceCost": 1675,
+                "serviceDate": "2016-07-09"
+            },
+            {
+                "serviceCost": 3290,
+                "serviceDate": "2018-01-11"
+            }
+        ]
+    },
+    {
+        "model": "Toyota Innova",
+        "price": 1128600,
+        "version": "Limited",
+        "fuelType": "Diesel",
+        "mileage": 3499,
+        "image": "Toyota_Innova.jpg",
+        "category": {
+            "vechicleType": "Sedan"
+        },
+        "status": {
+            "isServiceDone": false
+        },
+        "bootSize": 14050,
+        "serviceHistory": [
+            {
+                "serviceCost": 1200,
+                "serviceDate": "2015-12-07"
+            },
+            {
+                "serviceCost": 5211,
+                "serviceDate": "2016-07-09"
+            },
+            {
+                "serviceCost": 7220,
+                "serviceDate": "2017-12-20"
+            },
+            {
+                "serviceCost": 3290,
+                "serviceDate": "2017-06-07"
+            },
+            {
+                "serviceCost": 4140,
+                "serviceDate": "2018-03-17"
+            }
+        ]
+    },
+    {
+        "model": "Kia i20",
+        "price": 723900,
+        "version": "elite",
+        "fuelType": "Diesel",
+        "mileage": 1562,
+        "image": "Kia_i20.jpg",
+        "category": {
+            "vechicleType": "Sedan"
+        },
+        "status": {
+            "isServiceDone": false
+        },
+        "bootSize": 3475,
+        "serviceHistory": [
+            {
+                "serviceCost": 1290,
+                "serviceDate": "2017-12-07"
+            },
+            {
+                "serviceCost": 1450,
+                "serviceDate": "2018-04-10"
+            }
+        ]
+    },
+    {
+        "model": "Maruthi Ciaz",
+        "price": 2475900,
+        "version": "Zxi",
+        "fuelType": "Petrol",
+        "mileage": 1982,
+        "image": "Maruthi_Ciaz.jpg",
+        "category": {
+            "vechicleType": "Sedan"
+        },
+        "status": {
+            "isServiceDone": true
+        },
+        "bootSize": 5695,
+        "serviceHistory": [
+            {
+                "serviceCost": 3100,
+                "serviceDate": "2018-02-15"
+            }
+        ]
+    },
+    {
+        "model": "Tata Nexon",
+        "price": 7823900,
+        "version": "LX",
+        "fuelType": "Diesel",
+        "mileage": 140,
+        "image": "Tata_Nexon.jpeg",
+        "category": {
+            "vechicleType": "SUV"
+        },
+        "status": {
+            "isServiceDone": true
+        },
+        "numOfDifLocks": 4,
+        "serviceHistory": [
+            {
+                "serviceCost": 2349,
+                "serviceDate": "2017-12-07"
+            },
+            {
+                "serviceCost": 3100,
+                "serviceDate": "2018-03-10"
+            }
+        ]
+    },
+    {
+        "model": "Honda Civic",
+        "price": 2783900,
+        "version": "Platinum",
+        "fuelType": "Petrol",
+        "mileage": 764,
+        "image": "Honda_Civic.jpg",
+        "category": {
+            "vechicleType": "Sedan"
+        },
+        "status": {
+            "isServiceDone": true
+        },
+        "bootSize": 6320,
+        "serviceHistory": [
+            {
+                "serviceCost": 1920,
+                "serviceDate": "2017-09-14"
+            },
+            {
+                "serviceCost": 1320,
+                "serviceDate": "2017-06-22"
+            },
+            {
+                "serviceCost": 1480,
+                "serviceDate": "2018-03-20"
+            }
+        ]
+    },
+    {
+        "model": "Honda CRV",
+        "price": 1343700,
+        "version": "Limited",
+        "fuelType": "Diesel",
+        "mileage": 1140,
+        "image": "Honda_CRV.jpg",
+        "category": {
+            "vechicleType": "SUV"
+        },
+        "status": {
+            "isServiceDone": false
+        },
+        "numOfDifLocks": 4,
+        "serviceHistory": [
+            {
+                "serviceCost": 2345,
+                "serviceDate": "2017-09-01"
+            },
+            {
+                "serviceCost": 3180,
+                "serviceDate": "2017-01-19"
+            },
+            {
+                "serviceCost": 4130,
+                "serviceDate": "2018-03-20"
+            }
+        ]
+    }
+]
